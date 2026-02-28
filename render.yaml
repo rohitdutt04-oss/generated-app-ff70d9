@@ -1,0 +1,1 @@
+services:\n  - type: web\n    name: food-delivery-app\n    env: production\n    region: oregon\n    docker:\n      - dockerfile: Dockerfile
