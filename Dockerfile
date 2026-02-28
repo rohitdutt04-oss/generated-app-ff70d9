@@ -1,0 +1,1 @@
+FROM nginx:alpine\nCOPY index.html /usr/share/nginx/html\nEXPOSE 80\nCMD [\"nginx\", \"-g\", \"daemon off;\"]
